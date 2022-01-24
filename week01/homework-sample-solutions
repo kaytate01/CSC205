@@ -1,8 +1,67 @@
+/*
+ * CSC205 Week01 Programming Assignment
+ * #1 Create a program that will display to the console the name of each member of your team, all in one line.
+ * Team members: Name1, Name2 and Name3
+ */
+ 
+using System;
+
+namespace CSC205Homework
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Our team members: Name1, Name2 and Name3 ");
+        }
+    }
+}
+
+
+
+/*
+  CSC205 Week01 Programming Assignment
+  #2: Create a program that will display to the console the following pattern:
+    ^
+   ^^^
+  ^^^^^
+  Team members: Name1, Name2 and Name3
+ */
+
+using System;
+
+namespace CSC205Homework
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("  ^");
+            Console.WriteLine(" ^^^");
+            Console.WriteLine("^^^^^");
+        }
+    }
+}
+
+
+using System;
+
+namespace CSC205Homework
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("  ^\n ^^^\n^^^^^");
+        }
+    }
+}
+
 
 
 /*
 CSC205 Week01 Programming Assignment
-#2. Declare several variables by selecting for each one of them the most appropriate of the types: 
+#3. Declare several variables by selecting for each one of them the most appropriate of the types: 
   sbyte, byte, short, ushort, int, uint, long and ulong in order to assign them the following values: 
   52,130; -115; 4825932; 97; -10000; 20000; 224; 970,700,000; 112; -44; -1,000,000; 1990;
   123456789123456789
@@ -10,7 +69,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/
 */
 
 using System;
-namespace CSC205Week02
+namespace CSC205Homework
 {
     class Program
     {
